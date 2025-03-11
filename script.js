@@ -27,7 +27,7 @@ function analyzeData() {
     }
 
     // Send data to backend (to be implemented)
-    fetch("http://localhost:5000/analyze", {
+    fetch("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", {
         method: "POST",
         body: JSON.stringify({ text: textInput }),
         headers: { "Content-Type": "application/json" }
